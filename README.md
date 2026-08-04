@@ -100,7 +100,7 @@ raw_data/ (PPG/GSR/IMU/temp CSVs, 20 subjects × 4 activities, ~2.86M rows)
 ---
 
 ## Dataset
-
+📦 **Dataset repo:** [Activity-State-Physiological-Dataset-ASDP](https://github.com/EshaBytes/Activity-State-Physiological-Dataset-ASDP)
 20 healthy participants (12 male, 8 female, aged 19–26, BMI 17–43), each recorded across 4 activities — sitting, walking, running, seated cognitive task — sampled at ~80–150 Hz.
 
 - 20 participants, 80 recording sessions
