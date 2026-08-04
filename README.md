@@ -208,7 +208,6 @@ cp .env.example .env
 ```
 Set `MONGODB_URI`, `MONGODB_DB_NAME`, and a real `JWT_SECRET` (e.g. `openssl rand -hex 32`) in `.env`. Optional keys: `ANTHROPIC_API_KEY` / `GEMINI_API_KEY` / `GROQ_API_KEY` (AI assistant — falls back to template-mode responses when unset), `AIR_QUALITY_API_KEY` (environmental correlation, not yet wired up).
 
-> **Security:** rotate any credentials ever shared in a chat, ticket, or commit before using them beyond local testing.
 
 ```bash
 python scripts/seed_mongo.py
