@@ -17,6 +17,7 @@ This isn't a mockup — the ML pipeline runs on real sensor data, the backend is
 
 ---
 
+
 ## Architecture
 
 ```
@@ -249,6 +250,89 @@ cd frontend && npm run test
 ```
 
 ---
+---
+ 
+## Screenshots
+ 
+### Landing Page
+ 
+<img width="1920" height="1080" alt="Screenshot (117)" src="https://github.com/user-attachments/assets/ae3f70bb-9a58-41dc-a8a2-34077b4b2447" />
+Landing page showing the project overview, key features, and call-to-action.
+
+### Profile
+<img width="1920" height="1080" alt="Screenshot (146)" src="https://github.com/user-attachments/assets/97cd470c-5ef9-4be1-8a2e-9766d9acc225" />
+Profile page displaying account information, physiological details, and automatically calculated BMI.
+
+ 
+### Cohort Overview
+ 
+<img width="1920" height="1080" alt="Screenshot (149)" src="https://github.com/user-attachments/assets/d5994fb2-a86c-4697-8132-35265a4ea4f7" />
+Shows the subject's cardiovascular risk score, percentile, and risk category.
+
+### Admin Cohort Overview
+<img width="1920" height="1080" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/1eef7003-4f4b-4fb9-8ce5-8db8677d7ae4" />
+Displays all subjects along with the cohort-wide risk distribution.
+ 
+### Subject Dashboard
+<img width="1920" height="1080" alt="Screenshot (123)" src="https://github.com/user-attachments/assets/ca731aa4-2e05-47aa-889a-dc31023a8eb0" />
+EQ score card and overall session summary.
+
+### Sessions Dashboard
+<img width="1920" height="1080" alt="Screenshot (125)" src="https://github.com/user-attachments/assets/e20e9bf1-c6e0-407d-b2d8-4c240d71ac33" /> 
+Per-activity heart rate and RMSSD time-series visualizations.
+
+<img width="1920" height="1080" alt="Screenshot (130)" src="https://github.com/user-attachments/assets/2f3f6d0f-876e-4cc3-9970-616f35c2cccb" />
+Time-series plots of SpO₂ and skin temperature.
+<br>
+<img width="1920" height="1080" alt="Screenshot (129)" src="https://github.com/user-attachments/assets/c867700b-2328-4ab8-9524-4c13a98bfb62" />
+Stress Index and Recovery Rate over time.
+<br>
+<img width="1920" height="1080" alt="Screenshot (127)" src="https://github.com/user-attachments/assets/8d520f1b-c2dc-4b6b-abf9-6b058e6d6947" />
+Heart rate variability (SDNN) and RR Interval plots.
+
+### Explainability
+<img width="1920" height="1080" alt="Screenshot (131)" src="https://github.com/user-attachments/assets/a75c602f-c152-4df6-8cd3-e680f38c5a90" />
+Comparison of each biomarker with its healthy reference range.
+<br>
+<img width="1920" height="1080" alt="Screenshot (132)" src="https://github.com/user-attachments/assets/411908c5-ced5-4874-9fae-2bca165b128d" />
+Biomarker deviation analysis and cardiovascular risk explanation.
+
+### Longitudinal Analysis
+<img width="1920" height="1080" alt="Screenshot (133)" src="https://github.com/user-attachments/assets/5c8e4f5c-5836-489d-82c3-fb1617902429" />
+ML risk score trends across multiple recording sessions.
+
+
+ 
+### Upload & EQ Research
+ <img width="1920" height="1080" alt="Screenshot (134)" src="https://github.com/user-attachments/assets/36e69cdf-6cec-437c-a534-4e666c6eb128" />
+Upload page with the EQ self-assessment questionnaire.
+
+### EQ Graphs
+<img width="1920" height="1080" alt="Screenshot (137)" src="https://github.com/user-attachments/assets/8bac9487-f910-4bc7-b169-daf21eb67692" />
+Relationship between Emotional Quotient and ML Risk Score, and between EQ and Composure Proxy.
+<br>
+<img width="1920" height="1080" alt="Screenshot (138)" src="https://github.com/user-attachments/assets/6a60de61-565d-4959-8740-521362839382" />
+Comparison of EQ with Cognitive Load Index and RMSSD.
+<br>
+<img width="1920" height="1080" alt="Screenshot (139)" src="https://github.com/user-attachments/assets/6277ee6d-8ab0-41a4-9a85-e975255dc6fe" />
+Correlation of EQ with Stress Index and Recovery Rate.
+<br>
+<img width="1920" height="1080" alt="Screenshot (140)" src="https://github.com/user-attachments/assets/aac2489a-d5b5-4871-ac79-7a100f61d45c" />
+Relationship between EQ and resting heart rate.
+
+### Reference Ranges
+<img width="1920" height="1080" alt="Screenshot (141)" src="https://github.com/user-attachments/assets/352a3cac-ae79-4521-9cfa-8d013694b118" />
+Activity-specific physiological reference ranges.
+
+### Correlation Matrix
+<img width="1920" height="1080" alt="Screenshot (142)" src="https://github.com/user-attachments/assets/76ebfd3e-2136-4f93-82d6-bed282dabc78" />
+Correlation matrix between EQ score and cardiovascular metrics.
+
+### Conclusion Summary
+<img width="1920" height="1080" alt="Screenshot (143)" src="https://github.com/user-attachments/assets/01eb696e-7843-464d-8233-26ae4fcf86ad" />
+Automatically generated research summary based on the analyzed data.
+
+---
 
 ## What's real vs. what you still need to do
 
@@ -273,4 +357,5 @@ cd frontend && npm run test
 - Integration with additional wearable sensors
 - Cloud deployment with continuous monitoring
 - Personalized cardiovascular health recommendations
+
 
